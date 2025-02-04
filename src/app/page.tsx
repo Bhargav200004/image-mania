@@ -1,8 +1,13 @@
+import { H1, P } from "@common/typography";
+
 export default function Home() {
   return (
-    
-    <div>
-      <h1>Image_Mania</h1>
-    </div>
+    <main>
+      <H1>Image Mania</H1>
+      <P>
+        Welcome to Image Mania! This is a gallery of images from around the
+        world.
+      </P>
+    </main>
   );
 }
